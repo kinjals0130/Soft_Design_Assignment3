@@ -15,7 +15,7 @@ public class ProductDB {
      */
     public Product GetProductInfo(int UPCCode){
         try {
-            File productDatabase = new File ("src/ProductDatabase.txt");
+            File productDatabase = new File ("src/ProductDatabase");
             Scanner myReader = new Scanner(productDatabase);
 
             while (myReader.hasNextLine()){
