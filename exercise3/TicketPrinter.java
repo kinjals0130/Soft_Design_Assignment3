@@ -7,11 +7,6 @@ public class TicketPrinter implements View {
      * Prints some text on the paper.
      * @param text: the text that gets displayed
      */
-    /*public void displayText(String text) {
-        System.out.println("-------------Ticket Printer-------------");
-        System.out.println(text);
-    }*/
-
     public void displayProduct(String text){
         System.out.println("-------------Ticket Printer-------------");
         System.out.println(text);
