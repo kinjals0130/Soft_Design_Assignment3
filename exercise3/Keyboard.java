@@ -1,14 +1,16 @@
+/**
+ * Controller
+ * Manual input of a UPC code
+ */
 public class Keyboard {
+    private CashRegister cashRegister = new CashRegister();
 
-  //Model
-private final CashRegister cashRegister; 
-
-public Keyboard(CashRegister cashRegister ) {
-this.cashRegister = cashRegister;
+    /**
+     * Saves the UPC code entered by cashier
+     *
+     * @param UPCCode: barcode value
+     */
+    public void setUPCCode(int UPCCode) {
+        this.cashRegister.setCurrentProductUPC(UPCCode);
+    }
 }
-
-public void setUpcCode(long upcCode) {
-cashRegister.setCurrentProductUPC(upcCode);
-}
-}
-
