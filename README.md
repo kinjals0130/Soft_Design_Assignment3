@@ -1,4 +1,4 @@
-# Advantages/Disadvantages:
+# Advantages/Disadvantages of 3 Approaches:
 ## Advantages:
 - The MVC pattern allows you to easily maintain the application as it promotes Separation of Concerns
 - In MVC you can create mutiple views for a model because Model and View don't depend on each other, thus you can create changes in the Model without affecting the entire architecture
