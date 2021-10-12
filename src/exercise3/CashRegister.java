@@ -3,7 +3,6 @@ package exercise3;
 import java.util.Observable;
 
 /**
- * Model
  * Looks up the price and name of a product based on a UPC
  */
 public class CashRegister extends Observable {
@@ -15,7 +14,6 @@ public class CashRegister extends Observable {
 
     /**
      * Sets the UPC code for current scanned product
-     *
      * @param UPCCode: barcode value
      */
     public void setCurrentProductUPC(int UPCCode) {
@@ -28,15 +26,11 @@ public class CashRegister extends Observable {
         if (this.currentProduct != null) {
             setChanged();
             notifyObservers(this.currentProduct.toString());
-            // Displays the current scanned item
-//            this.display.displayText(this.currentProduct.toString());
-//            this.ticketPrinter.displayText(this.currentProduct.toString());
         }
     }
 
     /**
      * Gets the product information for the latest scanned product
-     *
      * @return - returns the current Product info
      */
     public Product getCurrentProductInfo() {

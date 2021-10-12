@@ -1,7 +1,6 @@
 package exercise3;
 
 /**
- * Controller
  * Manual input of a UPC code
  */
 public class Keyboard {

@@ -7,10 +7,10 @@ package exercise2;
 public class TicketPrinter implements View {
     /**
      * Prints some text on the paper.
-     * @param text: the text that gets displayed
+     * @param product: the Product that gets displayed
      */
-    public void displayProduct(String text){
+    public void displayProduct(Product product){
         System.out.println("-------------Ticket Printer-------------");
-        System.out.println(text);
+        System.out.println(product);
     }
 }

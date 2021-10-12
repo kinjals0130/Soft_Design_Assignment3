@@ -22,8 +22,8 @@ public class CashRegister {
         // Only print on the views if the product is defined
         if (this.currentProduct != null){
             // Displays the current scanned item
-            this.display.displayProduct(this.currentProduct.toString());
-            this.ticketPrinter.displayProduct(this.currentProduct.toString());
+            this.display.displayProduct(this.currentProduct);
+            this.ticketPrinter.displayProduct(this.currentProduct);
         }
     }
 

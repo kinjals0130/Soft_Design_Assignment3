@@ -7,11 +7,11 @@ package exercise2;
 public class Display implements View{
     /**
      * Displays some text on the screen
-     * @param text: the text that gets displayed
+     * @param product: the Product that gets displayed
      */
 
-    public void displayProduct(String text){
+    public void displayProduct(Product product){
         System.out.println("-------------Display-------------");
-        System.out.println(text);
+        System.out.println(product.toString());
     }
 }

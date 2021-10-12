@@ -1,7 +1,6 @@
 package exercise3;
 
 /**
- * Controller
  * Capture of UPC code using a bar scanner
  */
 class ScannerClass {
